@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import headshot from "@/assets/headshot.png";
 
 const About = () => {
   const ref = useRef(null);
@@ -25,10 +26,25 @@ const About = () => {
 
           {/* Content */}
           <div className="grid md:grid-cols-12 gap-8 md:gap-12">
+            {/* Photo and text column */}
             <div className="md:col-span-8 space-y-6">
-              <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
-                Building AI products that deliver real business impact
-              </h2>
+              {/* Photo */}
+              <div className="flex items-start gap-6 mb-8">
+                <div className="shrink-0">
+                  <div className="w-28 h-28 md:w-36 md:h-36 rounded-2xl overflow-hidden border-2 border-primary/20 shadow-lg">
+                    <img 
+                      src={headshot} 
+                      alt="Adebukola Malomo - AI Product Manager"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                <div className="pt-2">
+                  <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
+                    Building AI products that deliver real business impact
+                  </h2>
+                </div>
+              </div>
               
               <div className="space-y-4 text-base md:text-lg">
                 <p>
