@@ -35,7 +35,7 @@ const Index = () => {
             "jobTitle": "AI Product Manager",
             "url": "https://adebukolamalomo.com",
             "sameAs": [
-              "https://www.linkedin.com/in/adebukolamalomo/"
+              "https://www.linkedin.com/in/amalomo/"
             ],
             "knowsAbout": ["AI Products", "Machine Learning", "GenAI", "Product Management", "SaaS"],
             "worksFor": {

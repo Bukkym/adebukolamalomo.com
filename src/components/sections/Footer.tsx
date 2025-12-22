@@ -14,7 +14,7 @@ const Footer = () => {
           {/* Links */}
           <div className="flex items-center gap-6">
             <a
-              href="https://www.linkedin.com/in/adebukolamalomo/"
+              href="https://www.linkedin.com/in/amalomo/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
