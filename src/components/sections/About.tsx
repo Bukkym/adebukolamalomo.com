@@ -62,7 +62,7 @@ const About = () => {
                 <p>
                   From scaling a social matching platform from 0 to 3,000+ users to driving 
                   40% revenue growth at Joblift through AI-powered recommendations, I focus 
-                  on outcomes—not just outputs.
+                  on outcomes, not just outputs.
                 </p>
               </div>
             </div>

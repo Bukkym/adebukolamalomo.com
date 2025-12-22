@@ -7,7 +7,7 @@ const principles = [
   {
     icon: Target,
     title: "Outcomes over process",
-    description: "I measure success by business impact—revenue, engagement, user satisfaction—not by ceremonies completed or documents written."
+    description: "I measure success by business impact: revenue, engagement, user satisfaction. Not by ceremonies completed or documents written."
   },
   {
     icon: Zap,
@@ -52,7 +52,7 @@ const HowIWork = () => {
             </h2>
             <p className="text-lg text-muted-foreground mt-4 max-w-2xl">
               After years of shipping AI products, I've developed a clear perspective 
-              on what works—and what doesn't.
+              on what works, and what doesn't.
             </p>
           </div>
 

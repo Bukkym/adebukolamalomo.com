@@ -50,7 +50,7 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-lg md:text-xl max-w-2xl leading-relaxed"
           >
-            I help teams ship AI-powered products that actually work—from speech analytics 
+            I help teams ship AI-powered products that actually work: from speech analytics 
             and recommendation engines to GenAI workflows. 5+ years of turning ambiguity 
             into measurable outcomes across Europe.
           </motion.p>
