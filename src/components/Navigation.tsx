@@ -39,7 +39,7 @@ const Navigation = () => {
         <div className="container-wide py-4 flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="font-semibold text-lg text-foreground">
-            AM<span className="text-primary">.</span>
+            Adebukola M<span className="text-primary">.</span>
           </a>
 
           {/* Desktop nav */}
