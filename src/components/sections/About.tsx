@@ -78,12 +78,12 @@ const About = () => {
                   <div className="h-px bg-border" />
                   <div>
                     <p className="text-3xl font-semibold text-primary">40%</p>
-                    <p className="text-sm text-muted-foreground mt-1">Revenue Growth at Joblift</p>
+                    <p className="text-sm text-muted-foreground mt-1">Revenue Growth at Joblift GmbH</p>
                   </div>
                   <div className="h-px bg-border" />
                   <div>
                     <p className="text-3xl font-semibold text-primary">3,000+</p>
-                    <p className="text-sm text-muted-foreground mt-1">Users at CLIQup</p>
+                    <p className="text-sm text-muted-foreground mt-1">Users at CLIQup Social UG</p>
                   </div>
                   <div className="h-px bg-border" />
                   <div>
