@@ -6,7 +6,7 @@ import { ArrowRight, Phone, Briefcase, Heart, CheckCircle2 } from "lucide-react"
 const caseStudies = [
   {
     id: "telefonica",
-    company: "Telefónica Germany",
+    company: "Telefónica Germany GmbH",
     title: "AI-Powered Speech Analytics Automation",
     icon: Phone,
     color: "168 60% 32%",
@@ -23,7 +23,7 @@ const caseStudies = [
   },
   {
     id: "joblift",
-    company: "Joblift",
+    company: "Joblift GmbH",
     title: "AI-Driven Job Recommendation Platform",
     icon: Briefcase,
     color: "220 80% 55%",
@@ -40,7 +40,7 @@ const caseStudies = [
   },
   {
     id: "cliqup",
-    company: "CLIQup Social",
+    company: "CLIQup Social UG",
     title: "AI-Powered Social Matching Platform",
     icon: Heart,
     color: "340 80% 55%",
