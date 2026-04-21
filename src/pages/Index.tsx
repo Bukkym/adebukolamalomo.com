@@ -16,14 +16,14 @@ const Index = () => {
         <title>Adebukola Malomo | AI Product Manager</title>
         <meta 
           name="description" 
-          content="AI Product Manager with 5+ years building and scaling SaaS and AI-powered products. Specializing in speech analytics, recommendation engines, GenAI workflows, and real-world AI delivery." 
+          content="AI Product Manager with 7+ years building and scaling SaaS and AI-powered products. Specializing in speech analytics, recommendation engines, GenAI workflows, and real-world AI delivery." 
         />
         <meta name="keywords" content="AI Product Manager, GenAI, LLM, Product Strategy, Berlin, Machine Learning" />
         <link rel="canonical" href="https://adebukolamalomo.com" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Adebukola Malomo | AI Product Manager" />
-        <meta property="og:description" content="Turning complex AI into real-world products. 5+ years of shipping AI solutions across Europe." />
+        <meta property="og:description" content="Turning complex AI into real-world products. 7+ years of shipping AI solutions across Europe." />
         <meta property="og:type" content="website" />
         
         {/* Structured Data */}

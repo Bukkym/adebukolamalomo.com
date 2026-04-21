@@ -48,7 +48,7 @@ const About = () => {
               
               <div className="space-y-4 text-base md:text-lg">
                 <p>
-                  I'm Adebukola Malomo, an AI Product Manager with 5+ years of experience 
+                  I'm Adebukola Malomo, an AI Product Manager with 7+ years of experience 
                   transforming complex workflows into intelligent, automated systems. Based 
                   in Berlin, I've led product initiatives across speech analytics, recommendation 
                   engines, GenAI summarisation, and behaviour-driven personalization.
@@ -72,7 +72,7 @@ const About = () => {
               <div className="p-6 bg-card rounded-xl border border-border/50">
                 <div className="space-y-6">
                   <div>
-                    <p className="text-3xl font-semibold text-primary">5+</p>
+                    <p className="text-3xl font-semibold text-primary">7+</p>
                     <p className="text-sm text-muted-foreground mt-1">Years in Product</p>
                   </div>
                   <div className="h-px bg-border" />
