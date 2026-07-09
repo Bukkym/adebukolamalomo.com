@@ -5,54 +5,20 @@ import { Phone, Briefcase, Heart, Sparkles, Bot, CheckCircle2 } from "lucide-rea
 
 const caseStudies = [
   {
-    id: "telefonica",
-    company: "Telefónica Germany GmbH",
-    title: "AI-Powered Speech Analytics Automation",
-    icon: Phone,
-    color: "13 58% 44%",
-    problem: "Customer service quality reviews were manual, slow, and inconsistent. Only about 15% of calls were reviewed, limiting visibility into agent performance and compliance.",
-    role: "Led the AI transformation and discovery: analysed workflow bottlenecks, then defined AI labelling standards and evaluation criteria (precision, recall, false positives/negatives, agreement rates) with ML and QA teams. Ran model validation and built KPI dashboards.",
-    solution: "Replaced manual call reviews with ML-driven speech analytics and LLM-based scoring, backed by human-in-the-loop review for accuracy and compliance. Built dashboards to measure automation impact across agent productivity and service quality.",
-    components: ["Speech Analytics", "LLM Scoring", "Precision & Recall", "Human-in-the-Loop", "KPI Dashboards"],
+    id: "micro1",
+    company: "Micro1 Inc.",
+    title: "Prompt & Evaluation Design for Agentic AI",
+    icon: Bot,
+    color: "190 40% 38%",
+    problem: "Agentic AI models need reliable, high-quality outputs, but without rigorous prompts and consistent benchmarks, performance is hard to measure or improve at scale.",
+    role: "Design and optimize complex AI task prompts and evaluation frameworks for AI agents. Establish assessment rubrics that standardise benchmarks for continuous performance improvement.",
+    solution: "Built structured prompt and evaluation frameworks with rigorous rubrics to score agentic AI output quality and reliability, iterating from user feedback and data insights in a remote, cross-functional setup.",
+    components: ["Prompt Engineering", "Evaluation Rubrics", "Agentic AI", "Benchmarking", "Model Quality"],
     outcomes: [
-      "Boosted QA coverage from 15% to 90%",
-      "Cut manual review effort by over 60%",
-      "Standardised labelling and evaluation metrics",
-      "Enabled real-time operational insight and compliance"
-    ]
-  },
-  {
-    id: "joblift",
-    company: "Joblift GmbH",
-    title: "AI-Driven Job Recommendation Platform",
-    icon: Briefcase,
-    color: "32 68% 44%",
-    problem: "Users struggled to find relevant jobs quickly. Recommendations were generic and engagement was low.",
-    role: "Improved recommendation engine using behavioural clustering. Designed A/B tests and created quality criteria for model outputs.",
-    solution: "Built personalization logic using preference signals and GenAI-powered job summaries. Ran systematic experiments to validate improvements.",
-    components: ["Recommendation Algorithms", "Behavioural Clustering", "GenAI Summarisation", "Personalization Logic"],
-    outcomes: [
-      "+40% revenue growth",
-      "+250% product stickiness",
-      "Higher CTR and job discovery rates",
-      "Improved user satisfaction scores"
-    ]
-  },
-  {
-    id: "cliqup",
-    company: "CLIQup Social UG",
-    title: "AI-Powered Social Matching Platform",
-    icon: Heart,
-    color: "348 52% 52%",
-    problem: "People struggle to form meaningful friendships in new cities. Existing apps focus on dating or superficial matching.",
-    role: "Built and scaled platform from 0 → 3,000+ users. Designed AI-driven personality matching engine and led cross-functional execution.",
-    solution: "Created personality clustering using behavioural signals and preferences. Auto-generated 'Friendship Plans' based on user traits and intent signals.",
-    components: ["Personality Clustering", "Behaviour-based Matching", "Preference Weighting", "Engagement Prediction"],
-    outcomes: [
-      "3,000+ users acquired",
-      "250% engagement growth",
-      "High retention among matched users",
-      "Strong product-market signal validated"
+      "Measurable gains in AI output quality and reliability",
+      "Standardised benchmarks for consistent evaluation",
+      "Repeatable rubrics for continuous improvement",
+      "Data- and feedback-driven prompt iteration"
     ]
   },
   {
@@ -73,20 +39,54 @@ const caseStudies = [
     ]
   },
   {
-    id: "micro1",
-    company: "Micro1 Inc.",
-    title: "Prompt & Evaluation Design for Agentic AI",
-    icon: Bot,
-    color: "190 40% 38%",
-    problem: "Agentic AI models need reliable, high-quality outputs, but without rigorous prompts and consistent benchmarks, performance is hard to measure or improve at scale.",
-    role: "Design and optimize complex AI task prompts and evaluation frameworks for AI agents. Establish assessment rubrics that standardise benchmarks for continuous performance improvement.",
-    solution: "Built structured prompt and evaluation frameworks with rigorous rubrics to score agentic AI output quality and reliability, iterating from user feedback and data insights in a remote, cross-functional setup.",
-    components: ["Prompt Engineering", "Evaluation Rubrics", "Agentic AI", "Benchmarking", "Model Quality"],
+    id: "telefonica",
+    company: "Telefónica Germany GmbH",
+    title: "AI-Powered Speech Analytics Automation",
+    icon: Phone,
+    color: "13 58% 44%",
+    problem: "Customer service quality reviews were manual, slow, and inconsistent. Only about 15% of calls were reviewed, limiting visibility into agent performance and compliance.",
+    role: "Led the AI transformation and discovery: analysed workflow bottlenecks, then defined AI labelling standards and evaluation criteria (precision, recall, false positives/negatives, agreement rates) with ML and QA teams. Ran model validation and built KPI dashboards.",
+    solution: "Replaced manual call reviews with ML-driven speech analytics and LLM-based scoring, backed by human-in-the-loop review for accuracy and compliance. Built dashboards to measure automation impact across agent productivity and service quality.",
+    components: ["Speech Analytics", "LLM Scoring", "Precision & Recall", "Human-in-the-Loop", "KPI Dashboards"],
     outcomes: [
-      "Measurable gains in AI output quality and reliability",
-      "Standardised benchmarks for consistent evaluation",
-      "Repeatable rubrics for continuous improvement",
-      "Data- and feedback-driven prompt iteration"
+      "Boosted QA coverage from 15% to 90%",
+      "Cut manual review effort by over 60%",
+      "Standardised labelling and evaluation metrics",
+      "Enabled real-time operational insight and compliance"
+    ]
+  },
+  {
+    id: "cliqup",
+    company: "CLIQup Social UG",
+    title: "AI-Powered Social Matching Platform",
+    icon: Heart,
+    color: "348 52% 52%",
+    problem: "People struggle to form meaningful friendships in new cities. Existing apps focus on dating or superficial matching.",
+    role: "Built and scaled platform from 0 → 3,000+ users. Designed AI-driven personality matching engine and led cross-functional execution.",
+    solution: "Created personality clustering using behavioural signals and preferences. Auto-generated 'Friendship Plans' based on user traits and intent signals.",
+    components: ["Personality Clustering", "Behaviour-based Matching", "Preference Weighting", "Engagement Prediction"],
+    outcomes: [
+      "3,000+ users acquired",
+      "250% engagement growth",
+      "High retention among matched users",
+      "Strong product-market signal validated"
+    ]
+  },
+  {
+    id: "joblift",
+    company: "Joblift GmbH",
+    title: "AI-Driven Job Recommendation Platform",
+    icon: Briefcase,
+    color: "32 68% 44%",
+    problem: "Users struggled to find relevant jobs quickly. Recommendations were generic and engagement was low.",
+    role: "Improved recommendation engine using behavioural clustering. Designed A/B tests and created quality criteria for model outputs.",
+    solution: "Built personalization logic using preference signals and GenAI-powered job summaries. Ran systematic experiments to validate improvements.",
+    components: ["Recommendation Algorithms", "Behavioural Clustering", "GenAI Summarisation", "Personalization Logic"],
+    outcomes: [
+      "+40% revenue growth",
+      "+250% product stickiness",
+      "Higher CTR and job discovery rates",
+      "Improved user satisfaction scores"
     ]
   }
 ];
