@@ -64,6 +64,7 @@ const Hero = () => {
           {/* Featured case study */}
           <a
             href="#work"
+            onClick={() => window.dispatchEvent(new CustomEvent("select-case", { detail: "aura" }))}
             className="group block max-w-xl rounded-xl border border-border bg-card p-6 shadow-sm transition-all duration-300 hover:border-primary/40 hover:shadow-md"
           >
             <span className="text-xs font-semibold uppercase tracking-[0.14em] text-primary">

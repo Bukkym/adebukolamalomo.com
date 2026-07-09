@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Phone, Briefcase, Heart, Sparkles, Bot, CheckCircle2 } from "lucide-react";
 
 const caseStudies = [
@@ -115,6 +115,16 @@ const CaseStudies = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const [activeCase, setActiveCase] = useState(0);
+
+  useEffect(() => {
+    const handler = (e: Event) => {
+      const id = (e as CustomEvent<string>).detail;
+      const idx = caseStudies.findIndex((study) => study.id === id);
+      if (idx >= 0) setActiveCase(idx);
+    };
+    window.addEventListener("select-case", handler);
+    return () => window.removeEventListener("select-case", handler);
+  }, []);
 
   return (
     <section id="work" className="section-padding bg-background" ref={ref}>
