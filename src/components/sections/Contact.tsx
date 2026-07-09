@@ -35,13 +35,13 @@ const Contact = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button variant="hero" size="lg" asChild>
+            <Button variant="ink" size="lg" className="rounded-full" asChild>
               <a href="mailto:malomoadebukola@gmail.com">
                 <Mail className="w-5 h-5" />
                 Send me an email
               </a>
             </Button>
-            <Button variant="hero-outline" size="lg" asChild>
+            <Button variant="hero-outline" size="lg" className="rounded-full" asChild>
               <a href="/Adebukola_Malomo_CV.pdf" download>
                 <Download className="w-5 h-5" />
                 Download CV

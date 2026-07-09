@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { ArrowRight, Phone, Briefcase, Heart, CheckCircle2 } from "lucide-react";
+import { Phone, Briefcase, Heart, Sparkles, Bot, CheckCircle2 } from "lucide-react";
 
 const caseStudies = [
   {
@@ -9,16 +9,16 @@ const caseStudies = [
     company: "Telefónica Germany GmbH",
     title: "AI-Powered Speech Analytics Automation",
     icon: Phone,
-    color: "168 60% 32%",
-    problem: "Customer service quality reviews were manual, slow, and inconsistent. Only 2–5% of calls were reviewed, limiting visibility into agent performance.",
-    role: "Led AI transformation, defined labelling standards and evaluation criteria with ML engineers. Conducted model validation and built KPI dashboards.",
-    solution: "Integrated speech-to-text and ML classification models with human-in-the-loop validation workflows. Created dashboards for QA and operations teams.",
-    components: ["Speech-to-text", "ML Classification", "Confidence Scoring", "Edge-case Analysis"],
+    color: "13 58% 44%",
+    problem: "Customer service quality reviews were manual, slow, and inconsistent. Only about 15% of calls were reviewed, limiting visibility into agent performance and compliance.",
+    role: "Led the AI transformation and discovery: analysed workflow bottlenecks, then defined AI labelling standards and evaluation criteria (precision, recall, false positives/negatives, agreement rates) with ML and QA teams. Ran model validation and built KPI dashboards.",
+    solution: "Replaced manual call reviews with ML-driven speech analytics and LLM-based scoring, backed by human-in-the-loop review for accuracy and compliance. Built dashboards to measure automation impact across agent productivity and service quality.",
+    components: ["Speech Analytics", "LLM Scoring", "Precision & Recall", "Human-in-the-Loop", "KPI Dashboards"],
     outcomes: [
-      "Reduced manual QA workload significantly",
-      "Increased call coverage from ~5% → 100%",
-      "Improved accuracy of quality scoring",
-      "Enabled real-time operational insights"
+      "Boosted QA coverage from 15% to 90%",
+      "Cut manual review effort by over 60%",
+      "Standardised labelling and evaluation metrics",
+      "Enabled real-time operational insight and compliance"
     ]
   },
   {
@@ -26,7 +26,7 @@ const caseStudies = [
     company: "Joblift GmbH",
     title: "AI-Driven Job Recommendation Platform",
     icon: Briefcase,
-    color: "220 80% 55%",
+    color: "32 68% 44%",
     problem: "Users struggled to find relevant jobs quickly. Recommendations were generic and engagement was low.",
     role: "Improved recommendation engine using behavioural clustering. Designed A/B tests and created quality criteria for model outputs.",
     solution: "Built personalization logic using preference signals and GenAI-powered job summaries. Ran systematic experiments to validate improvements.",
@@ -43,7 +43,7 @@ const caseStudies = [
     company: "CLIQup Social UG",
     title: "AI-Powered Social Matching Platform",
     icon: Heart,
-    color: "340 80% 55%",
+    color: "348 52% 52%",
     problem: "People struggle to form meaningful friendships in new cities. Existing apps focus on dating or superficial matching.",
     role: "Built and scaled platform from 0 → 3,000+ users. Designed AI-driven personality matching engine and led cross-functional execution.",
     solution: "Created personality clustering using behavioural signals and preferences. Auto-generated 'Friendship Plans' based on user traits and intent signals.",
@@ -53,6 +53,40 @@ const caseStudies = [
       "250% engagement growth",
       "High retention among matched users",
       "Strong product-market signal validated"
+    ]
+  },
+  {
+    id: "aura",
+    company: "Aura",
+    title: "Explainable AI Matching (Bootcamp Project)",
+    icon: Sparkles,
+    color: "278 40% 52%",
+    problem: "People struggle to form real connections in a new city. Swiping apps and rigid filters rely on shallow signals, so matches feel random and there is a gap between what people say they want and what they actually enjoy.",
+    role: "Conceived and built the product end to end during my AI Software Engineering bootcamp: brand, data model, matching logic, and a working MVP. Ora is the AI inside Aura; I designed how it reads people and explains its picks.",
+    solution: "Users describe who they want to meet in their own words. An LLM extracts structured preferences into editable chips, a deterministic weighted-overlap score matches people within compatibility archetypes, and Ora explains why each plan fits in plain language. Users refine matches conversationally, and Ora learns from behaviour, not just what was self-reported.",
+    components: ["LLM Preference Extraction", "Explainable Matching", "Weighted Scoring", "Archetype Clustering", "Human-in-the-Loop Refinement"],
+    outcomes: [
+      "Turned free-text input into structured, editable preferences",
+      "Deterministic, explainable matching instead of a black box",
+      "Every match justified in plain language, the heart of the product",
+      "Shipped and deployed live at meetonaura.com"
+    ]
+  },
+  {
+    id: "micro1",
+    company: "Micro1 Inc.",
+    title: "Prompt & Evaluation Design for Agentic AI",
+    icon: Bot,
+    color: "190 40% 38%",
+    problem: "Agentic AI models need reliable, high-quality outputs, but without rigorous prompts and consistent benchmarks, performance is hard to measure or improve at scale.",
+    role: "Design and optimize complex AI task prompts and evaluation frameworks for AI agents. Establish assessment rubrics that standardise benchmarks for continuous performance improvement.",
+    solution: "Built structured prompt and evaluation frameworks with rigorous rubrics to score agentic AI output quality and reliability, iterating from user feedback and data insights in a remote, cross-functional setup.",
+    components: ["Prompt Engineering", "Evaluation Rubrics", "Agentic AI", "Benchmarking", "Model Quality"],
+    outcomes: [
+      "Measurable gains in AI output quality and reliability",
+      "Standardised benchmarks for consistent evaluation",
+      "Repeatable rubrics for continuous improvement",
+      "Data- and feedback-driven prompt iteration"
     ]
   }
 ];

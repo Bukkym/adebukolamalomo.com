@@ -48,48 +48,52 @@ const About = () => {
               
               <div className="space-y-4 text-base md:text-lg">
                 <p>
-                  I'm Adebukola Malomo, an AI Product Manager with 7+ years of experience 
-                  transforming complex workflows into intelligent, automated systems. Based 
-                  in Berlin, I've led product initiatives across speech analytics, recommendation 
-                  engines, GenAI summarisation, and behaviour-driven personalization.
+                  I'm Adebukola Malomo, an AI Product Manager with 7+ years of experience
+                  transforming manual operations into intelligent, automated systems. Based
+                  in Berlin, I've led product initiatives across speech analytics, recommendation
+                  engines, GenAI summarisation, behaviour-driven personalization, and agentic AI.
                 </p>
                 <p>
-                  My approach is rooted in delivery: understanding the problem deeply, 
-                  collaborating closely with data science and engineering teams, and 
-                  shipping solutions that create measurable value. I thrive in ambiguity 
-                  and excel at translating complex AI capabilities into products users love.
+                  My approach is rooted in delivery: understanding the problem deeply,
+                  collaborating closely with data science and engineering teams, and pairing
+                  rigorous evaluation frameworks with human-in-the-loop review so automation
+                  stays accurate, compliant, and effective. I thrive in ambiguity and excel at
+                  translating complex AI capabilities into products users love.
                 </p>
                 <p>
-                  From scaling a social matching platform from 0 to 3,000+ users to driving 
-                  40% revenue growth at Joblift through AI-powered recommendations, I focus 
-                  on outcomes, not just outputs.
+                  From scaling a social matching platform from 0 to 3,000+ users, to driving
+                  40% revenue growth at Joblift through AI recommendations, to automating call
+                  quality reviews at Telefónica with ML-driven speech analytics, I focus on
+                  outcomes, not just outputs. Today I design and optimize prompts and evaluation
+                  rubrics for agentic AI at Micro1.
                 </p>
               </div>
             </div>
 
-            {/* Stats sidebar */}
-            <div className="md:col-span-4 space-y-6">
-              <div className="p-6 bg-card rounded-xl border border-border/50">
-                <div className="space-y-6">
-                  <div>
-                    <p className="text-3xl font-semibold text-primary">7+</p>
-                    <p className="text-sm text-muted-foreground mt-1">Years in Product</p>
-                  </div>
-                  <div className="h-px bg-border" />
-                  <div>
-                    <p className="text-3xl font-semibold text-primary">40%</p>
-                    <p className="text-sm text-muted-foreground mt-1">Revenue Growth at Joblift GmbH</p>
-                  </div>
-                  <div className="h-px bg-border" />
-                  <div>
-                    <p className="text-3xl font-semibold text-primary">3,000+</p>
-                    <p className="text-sm text-muted-foreground mt-1">Users at CLIQup Social UG</p>
-                  </div>
-                  <div className="h-px bg-border" />
-                  <div>
-                    <p className="text-3xl font-semibold text-primary">100%</p>
-                    <p className="text-sm text-muted-foreground mt-1">Call Coverage at Telefónica</p>
-                  </div>
+            {/* At a glance sidebar */}
+            <div className="md:col-span-4">
+              <div className="p-6 bg-card rounded-xl border border-border/50 space-y-5">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-primary">
+                  At a glance
+                </h3>
+                <div>
+                  <p className="text-xs uppercase tracking-wide text-muted-foreground">Currently</p>
+                  <p className="text-sm text-foreground font-medium mt-1">Product Manager, Micro1 Inc. (Freelance)</p>
+                </div>
+                <div className="h-px bg-border" />
+                <div>
+                  <p className="text-xs uppercase tracking-wide text-muted-foreground">Based in</p>
+                  <p className="text-sm text-foreground font-medium mt-1">Berlin · open to remote</p>
+                </div>
+                <div className="h-px bg-border" />
+                <div>
+                  <p className="text-xs uppercase tracking-wide text-muted-foreground">Focus</p>
+                  <p className="text-sm text-foreground font-medium mt-1">Agentic AI · LLM workflows · Model evaluation</p>
+                </div>
+                <div className="h-px bg-border" />
+                <div>
+                  <p className="text-xs uppercase tracking-wide text-muted-foreground">Languages</p>
+                  <p className="text-sm text-foreground font-medium mt-1">English (native) · German (B2)</p>
                 </div>
               </div>
             </div>

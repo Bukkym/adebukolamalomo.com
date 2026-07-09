@@ -57,7 +57,7 @@ const Navigation = () => {
 
           {/* CTA */}
           <div className="hidden md:block">
-            <Button variant="default" size="sm" asChild>
+            <Button variant="ink" size="sm" className="rounded-full" asChild>
               <a href="/Adebukola_Malomo_CV.pdf" download>
                 Download CV
               </a>
@@ -105,7 +105,7 @@ const Navigation = () => {
                 transition={{ delay: 0.3 }}
                 className="pt-6"
               >
-                <Button variant="hero" size="lg" className="w-full" asChild>
+                <Button variant="ink" size="lg" className="w-full rounded-full" asChild>
                   <a href="/Adebukola_Malomo_CV.pdf" download>
                     Download CV
                   </a>

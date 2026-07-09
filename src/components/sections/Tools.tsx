@@ -4,23 +4,27 @@ import { useRef } from "react";
 
 const toolCategories = [
   {
-    category: "AI & ML",
-    tools: ["LLMs", "Prompt Engineering", "RAG", "Recommendation Systems", "Speech Analytics", "Model Evaluation"]
+    category: "AI & Data",
+    tools: ["LLMs", "Prompt Engineering", "RAG", "Recommendation Systems", "Personalization", "Speech Analytics", "Model Evaluation", "Precision & Recall", "AI Quality Metrics", "Human-in-the-Loop"]
   },
   {
-    category: "Product",
-    tools: ["Product Strategy", "Roadmapping", "PRDs", "User Research", "A/B Testing", "Agile Delivery"]
+    category: "Product & Strategy",
+    tools: ["Product Strategy", "Roadmapping", "PRDs", "User Research", "A/B Testing", "KPI Definition", "Agile Delivery", "Go-to-Market"]
   },
   {
-    category: "Analytics",
-    tools: ["SQL", "BigQuery", "Mixpanel", "Google Analytics", "HotJar", "Kibana"]
+    category: "Automation & Workflow",
+    tools: ["Make", "Zapier", "n8n"]
   },
   {
-    category: "Design & Collaboration",
-    tools: ["Figma", "Notion", "JIRA", "Confluence", "Miro", "Asana"]
+    category: "AI & Product Design",
+    tools: ["Figma AI", "Cursor", "Lovable", "Claude Code", "Antigravity"]
   },
   {
-    category: "Cloud & Tech",
+    category: "Analytics & Collaboration",
+    tools: ["SQL", "BigQuery", "Mixpanel", "Google Analytics", "HotJar", "Kibana", "JIRA", "Confluence", "Notion", "Miro", "Asana"]
+  },
+  {
+    category: "Cloud & Technical",
     tools: ["AWS", "GCP", "API Concepts", "Cloud Fundamentals"]
   }
 ];
@@ -90,11 +94,13 @@ const Tools = () => {
             </h3>
             <div className="flex flex-wrap gap-3">
               {[
-                "AWS Certified AI Practitioner",
-                "Cloud Architect Program (GoCloud)",
-                "Generative AI Foundations (Microsoft)",
-                "Prompt Engineering for AI Products (Coursera)",
-                "Product Masterclass (Product School)"
+                "AI Software Engineering (Digitale Leute)",
+                "Cloud Architect Program (GoCloud Careers)",
+                "Generative AI Foundations (Microsoft Learn)",
+                "Prompt Engineering (Coursera)",
+                "Product Management Masterclasses (Product School)",
+                "Project Management (APM)",
+                "Design Thinking (IDEO)"
               ].map((cert) => (
                 <span
                   key={cert}

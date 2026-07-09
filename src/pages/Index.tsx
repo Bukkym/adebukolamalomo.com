@@ -14,9 +14,9 @@ const Index = () => {
     <HelmetProvider>
       <Helmet>
         <title>Adebukola Malomo | AI Product Manager</title>
-        <meta 
-          name="description" 
-          content="AI Product Manager with 7+ years building and scaling SaaS and AI-powered products. Specializing in speech analytics, recommendation engines, GenAI workflows, and real-world AI delivery." 
+        <meta
+          name="description"
+          content="AI Product Manager with 7+ years building and scaling AI-powered products. Specializing in speech analytics, recommendation engines, GenAI workflows, agentic AI, and real-world AI delivery."
         />
         <meta name="keywords" content="AI Product Manager, GenAI, LLM, Product Strategy, Berlin, Machine Learning" />
         <link rel="canonical" href="https://adebukolamalomo.com" />
