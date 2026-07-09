@@ -91,6 +91,26 @@ const caseStudies = [
   }
 ];
 
+const renderOutcome = (text: string) => {
+  const domain = "meetonaura.com";
+  if (!text.includes(domain)) return text;
+  const [before, after] = text.split(domain);
+  return (
+    <>
+      {before}
+      <a
+        href="https://meetonaura.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-primary font-medium underline underline-offset-2 hover:no-underline"
+      >
+        {domain}
+      </a>
+      {after}
+    </>
+  );
+};
+
 const CaseStudies = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -217,7 +237,7 @@ const CaseStudies = () => {
                   {caseStudies[activeCase].outcomes.map((outcome) => (
                     <div key={outcome} className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                      <p className="text-body">{outcome}</p>
+                      <p className="text-body">{renderOutcome(outcome)}</p>
                     </div>
                   ))}
                 </div>
