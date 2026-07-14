@@ -18,7 +18,7 @@ const Index = () => {
           name="description"
           content="AI Product Manager with 7+ years building and scaling AI-powered products. Specializing in speech analytics, recommendation engines, GenAI workflows, agentic AI, and real-world AI delivery."
         />
-        <meta name="keywords" content="AI Product Manager, GenAI, LLM, Product Strategy, Ontario, Canada, Machine Learning" />
+        <meta name="keywords" content="AI Product Manager, GenAI, LLM, Product Strategy, Berlin, Machine Learning" />
         <link rel="canonical" href="https://adebukolamalomo.com" />
         
         {/* Open Graph */}
