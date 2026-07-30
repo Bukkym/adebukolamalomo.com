@@ -78,8 +78,8 @@ const About = () => {
                   At a glance
                 </h3>
                 <div>
-                  <p className="text-xs uppercase tracking-wide text-muted-foreground">Currently</p>
-                  <p className="text-sm text-foreground font-medium mt-1">Product Manager, Micro1 Inc. (Freelance)</p>
+                  <p className="text-xs uppercase tracking-wide text-muted-foreground">Open to</p>
+                  <p className="text-sm text-foreground font-medium mt-1">AI Product Manager roles · full-time or contract</p>
                 </div>
                 <div className="h-px bg-border" />
                 <div>
