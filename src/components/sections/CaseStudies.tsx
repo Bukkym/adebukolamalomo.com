@@ -11,14 +11,14 @@ const caseStudies = [
     icon: Bot,
     color: "190 40% 38%",
     problem: "Agentic AI models need reliable, high-quality outputs, but without rigorous prompts and consistent benchmarks, performance is hard to measure or improve at scale.",
-    role: "Design and optimize complex AI task prompts and evaluation frameworks for AI agents. Establish assessment rubrics that standardise benchmarks for continuous performance improvement.",
+    role: "Designed and optimized complex AI task prompts and evaluation frameworks for AI agents, and established assessment rubrics to standardise quality benchmarks. Recognised for high-quality work and selected to review other experts' tasks and mentor new joiners.",
     solution: "Built structured prompt and evaluation frameworks with rigorous rubrics to score agentic AI output quality and reliability, iterating from user feedback and data insights in a remote, cross-functional setup.",
     components: ["Prompt Engineering", "Evaluation Rubrics", "Agentic AI", "Benchmarking", "Model Quality"],
     outcomes: [
-      "Measurable gains in AI output quality and reliability",
+      "Improved AI output quality and reliability at scale",
       "Standardised benchmarks for consistent evaluation",
-      "Repeatable rubrics for continuous improvement",
-      "Data- and feedback-driven prompt iteration"
+      "Selected to review other experts' tasks and mentor new joiners",
+      "Raised task quality across the project team"
     ]
   },
   {

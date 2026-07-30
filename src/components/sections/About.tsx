@@ -64,8 +64,9 @@ const About = () => {
                   From scaling a social matching platform from 0 to 3,000+ users, to driving
                   40% revenue growth at Joblift through AI recommendations, to automating call
                   quality reviews at Telefónica with ML-driven speech analytics, I focus on
-                  outcomes, not just outputs. Today I design and optimize prompts and evaluation
-                  rubrics for agentic AI at Micro1.
+                  outcomes, not just outputs. At Micro1, I designed prompts and evaluation
+                  rubrics for agentic AI, and was trusted to review other experts' work and
+                  mentor new joiners.
                 </p>
               </div>
             </div>
