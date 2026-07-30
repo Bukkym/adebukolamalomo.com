@@ -24,7 +24,7 @@ const caseStudies = [
   {
     id: "aura",
     company: "Aura",
-    title: "Explainable AI Matching (Bootcamp Project)",
+    title: "Explainable AI Matching",
     icon: Sparkles,
     color: "278 40% 52%",
     problem: "People struggle to form real connections in a new city. Swiping apps and rigid filters rely on shallow signals, so matches feel random and there is a gap between what people say they want and what they actually enjoy.",
