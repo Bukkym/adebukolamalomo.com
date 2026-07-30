@@ -36,7 +36,7 @@ const Contact = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <Button variant="ink" size="lg" className="rounded-full" asChild>
-              <a href="mailto:malomoadebukola@gmail.com">
+              <a href="mailto:adebukolamalomo@gmail.com">
                 <Mail className="w-5 h-5" />
                 Send me an email
               </a>
@@ -68,11 +68,11 @@ const Contact = () => {
             </a>
             <span className="text-border">|</span>
             <a
-              href="mailto:malomoadebukola@gmail.com"
+              href="mailto:adebukolamalomo@gmail.com"
               className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail className="w-5 h-5" />
-              <span className="text-sm font-medium">malomoadebukola@gmail.com</span>
+              <span className="text-sm font-medium">adebukolamalomo@gmail.com</span>
             </a>
           </motion.div>
         </motion.div>
