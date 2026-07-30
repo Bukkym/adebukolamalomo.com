@@ -45,8 +45,9 @@ const Hero = () => {
 
           {/* Lede */}
           <p className="text-lg md:text-xl max-w-xl leading-relaxed">
-            7+ years shipping AI products, from recommendation engines to agentic AI.
-            I don't just spec, I build.
+            7+ years shipping AI products, from recommendation engines to agentic AI
+            across Europe and North America. I don't just spec products, I prototype
+            and ship them.
           </p>
 
           {/* Stats */}

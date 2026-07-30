@@ -48,8 +48,9 @@ const About = () => {
               
               <div className="space-y-4 text-base md:text-lg">
                 <p>
-                  I'm Adebukola Malomo, an AI Product Manager with 7+ years of experience
-                  transforming manual operations into intelligent, automated systems. Based
+                  I'm Adebukola Malomo, an AI Product Manager with 7+ years building AI products
+                  across early-stage startups and large enterprises, transforming manual
+                  operations into intelligent, automated systems. Based
                   in Ontario, Canada, I've led product initiatives across speech analytics, recommendation
                   engines, GenAI summarisation, behaviour-driven personalization, and agentic AI.
                 </p>
