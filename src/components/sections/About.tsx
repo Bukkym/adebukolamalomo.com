@@ -50,7 +50,7 @@ const About = () => {
                 <p>
                   I'm Adebukola Malomo, an AI Product Manager with 7+ years of experience
                   transforming manual operations into intelligent, automated systems. Based
-                  in Berlin, I've led product initiatives across speech analytics, recommendation
+                  in Ontario, Canada, I've led product initiatives across speech analytics, recommendation
                   engines, GenAI summarisation, behaviour-driven personalization, and agentic AI.
                 </p>
                 <p>
@@ -83,7 +83,7 @@ const About = () => {
                 <div className="h-px bg-border" />
                 <div>
                   <p className="text-xs uppercase tracking-wide text-muted-foreground">Based in</p>
-                  <p className="text-sm text-foreground font-medium mt-1">Berlin · open to remote</p>
+                  <p className="text-sm text-foreground font-medium mt-1">Ontario, Canada · open to remote</p>
                 </div>
                 <div className="h-px bg-border" />
                 <div>

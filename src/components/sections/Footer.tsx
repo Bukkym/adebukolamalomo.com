@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Name and role */}
           <div className="text-center md:text-left">
             <p className="font-semibold text-foreground">Adebukola Malomo</p>
-            <p className="text-sm text-muted-foreground">AI Product Manager · Berlin, Germany</p>
+            <p className="text-sm text-muted-foreground">AI Product Manager · Ontario, Canada</p>
           </div>
 
           {/* Links */}
