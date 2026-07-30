@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Target, Zap, Compass, Users } from "lucide-react";
+import { Target, Hammer, Compass, Users } from "lucide-react";
 
 const principles = [
   {
@@ -10,9 +10,9 @@ const principles = [
     description: "I measure success by business impact: revenue, engagement, user satisfaction. Not by ceremonies completed or documents written."
   },
   {
-    icon: Zap,
-    title: "Speed with judgment",
-    description: "I move fast but deliberately. Quick iterations, rapid validation, but never at the cost of quality or user trust."
+    icon: Hammer,
+    title: "Build, don't just spec",
+    description: "I prototype and ship with modern AI tools like Claude Code, Cursor, and Lovable, so ideas become working products fast, not just documents."
   },
   {
     icon: Compass,

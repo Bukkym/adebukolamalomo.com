@@ -45,8 +45,9 @@ const Hero = () => {
 
           {/* Lede */}
           <p className="text-lg md:text-xl max-w-xl leading-relaxed">
-            7+ years turning ambiguity into measurable outcomes across Europe:
-            speech analytics, recommendation engines, and agentic AI.
+            7+ years turning ambiguity into measurable outcomes across Europe and
+            North America: speech analytics, recommendation engines, and agentic AI.
+            I don't just spec products, I prototype and ship them.
           </p>
 
           {/* Stats */}
