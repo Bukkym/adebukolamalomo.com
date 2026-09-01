@@ -4,6 +4,7 @@ import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
 import WhatIDo from "@/components/sections/WhatIDo";
 import CaseStudies from "@/components/sections/CaseStudies";
+import WorkWithMe from "@/components/sections/WorkWithMe";
 import Tools from "@/components/sections/Tools";
 import HowIWork from "@/components/sections/HowIWork";
 import Contact from "@/components/sections/Contact";
@@ -52,6 +53,7 @@ const Index = () => {
         <About />
         <WhatIDo />
         <CaseStudies />
+        <WorkWithMe />
         <Tools />
         <HowIWork />
         <Contact />

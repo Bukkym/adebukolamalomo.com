@@ -99,6 +99,13 @@ const Hero = () => {
               Get in touch
               <ArrowRight className="w-4 h-4" />
             </a>
+            <a
+              href="#work-with-me"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+            >
+              Available for project work
+              <ArrowRight className="w-4 h-4" />
+            </a>
           </div>
         </motion.div>
       </div>

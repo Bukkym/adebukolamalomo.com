@@ -23,8 +23,9 @@ const Contact = () => {
               Let's build something together
             </h2>
             <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-              Looking for an AI Product Manager who ships? Whether you're hiring, 
-              exploring AI opportunities, or need a thought partner, I'd love to connect.
+              Looking for an AI Product Manager who ships? Whether you're hiring,
+              need an AI product or automation built, or just want a thought
+              partner, I'd love to connect.
             </p>
           </div>
 

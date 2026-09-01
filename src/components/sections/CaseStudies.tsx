@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import { Phone, Briefcase, Heart, Sparkles, Bot, CheckCircle2 } from "lucide-react";
+import { Phone, Briefcase, Heart, Sparkles, Bot, GraduationCap, Compass, CheckCircle2 } from "lucide-react";
 
 const caseStudies = [
   {
@@ -36,6 +36,40 @@ const caseStudies = [
       "Deterministic, explainable matching instead of a black box",
       "Every match justified in plain language, the heart of the product",
       "Shipped and deployed live at meetonaura.com"
+    ]
+  },
+  {
+    id: "passpoint",
+    company: "Passpoint",
+    title: "AI-Scored IELTS Coaching Platform",
+    icon: GraduationCap,
+    color: "205 55% 42%",
+    problem: "Most Nigerians and other Africans already speak English fluently, but underperform on IELTS because they don't understand the exam's structure and band-scoring rubric, especially on Writing and Speaking, the two parts no one can self-assess. Existing prep is expensive and generic.",
+    role: "Founded and built the product solo end to end: positioning, brand, and the full application, from a validated idea to a live, paying product.",
+    solution: "An AI writing scorer grades essays against the official IELTS band descriptors with instant, specific feedback and a model answer, paired with a structured study path, listening practice with generated audio, and Paddle-powered payments and accounts.",
+    components: ["AI Writing Scoring", "Payments (Paddle)", "Content & Audio Pipeline", "Product Analytics", "Solo Full-Stack Build"],
+    outcomes: [
+      "Built and shipped a live, monetized product solo, in weeks",
+      "Real payment processing, auth, and analytics running in production",
+      "Grounded in a validated, organic customer insight, not a guess",
+      "Live at getonpasspoint.com"
+    ]
+  },
+  {
+    id: "found",
+    company: "Found, by Ora",
+    title: "AI Matchmaking for Marriage-Minded Diaspora",
+    icon: Compass,
+    color: "255 40% 46%",
+    problem: "Existing matchmaking apps compete on browsing and swiping. Marriage-minded diaspora users need trust, verification, and a real introduction, not another feed, in a market where the best-funded players have already raised $10M+ on the obvious mechanic.",
+    role: "Led product strategy and competitive research against well-funded incumbents, then built the technical prototype solo: AI voice onboarding, preference extraction, and matchmaking logic.",
+    solution: "A voice-first onboarding interview, not a browsable profile, extracts biography and real past incidents rather than stated preferences. Hard filters apply to high-stakes constraints, and a matchmaker workflow proposes one introduction at a time, selling the process and the verification, never a guaranteed outcome.",
+    components: ["AI Voice Onboarding", "LLM Extraction", "Competitive Strategy", "Matching Logic", "Solo Full-Stack Build"],
+    outcomes: [
+      "Differentiated positioning against $10M+ funded competitors",
+      "Live prototype: application flow, AI onboarding, and matchmaker workflow",
+      "Reused and extended the matching infrastructure built for Aura",
+      "Live at meetonfound.com"
     ]
   },
   {
@@ -91,15 +125,17 @@ const caseStudies = [
   }
 ];
 
+const LINKED_DOMAINS = ["meetonaura.com", "getonpasspoint.com", "meetonfound.com"];
+
 const renderOutcome = (text: string) => {
-  const domain = "meetonaura.com";
-  if (!text.includes(domain)) return text;
+  const domain = LINKED_DOMAINS.find((d) => text.includes(d));
+  if (!domain) return text;
   const [before, after] = text.split(domain);
   return (
     <>
       {before}
       <a
-        href="https://meetonaura.com"
+        href={`https://${domain}`}
         target="_blank"
         rel="noopener noreferrer"
         className="text-primary font-medium underline underline-offset-2 hover:no-underline"
